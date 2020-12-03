@@ -33,6 +33,8 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 
 🔧 MongoDB
 
+🔧 Nodemon
+
 
 
 ## Rotas HTTP
