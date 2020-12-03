@@ -1,23 +1,17 @@
 const mongoose = require("mongoose");
-const candidatesSchema = new mongoose.Schema(
+const pontoSchema = new mongoose.Schema(
   {
     _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
-    nome: { type: String },
-    dataNascimento: { type: String },
-    telefone: { type: String },
-    email: { type: String },
-    cidade: { type: String },
-    estado: { type: String },
-    movimentoSocial: { type: String },
-    partido: { type: String },
-    vezesCandidato: { type: Number },
-    eleita: { type: Boolean }
+    tipoDeResiduo: { type: String },
+    bairro: { type: String },
+    endereço: { type: String }
+   
   },
   {
     versionKey: false
   }
 );
 
-const candidates = mongoose.model("collectionCandidates", candidatesSchema);
+const ponto = mongoose.model("collectionPonto", pontoSchema);
 
 module.exports = candidates
