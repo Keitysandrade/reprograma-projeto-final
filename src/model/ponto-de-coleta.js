@@ -14,4 +14,4 @@ const pontoSchema = new mongoose.Schema(
 
 const ponto = mongoose.model("collectionPonto", pontoSchema);
 
-module.exports = candidates
+module.exports = ponto

@@ -22,7 +22,7 @@ const createPonto = (req, res) => {
   });
 };
 
-const updateRegistration = (req, res) => {
+const updatePonto = (req, res) => {
   const id = req.params.id;
   const updatePonto = req.body;
 
@@ -52,6 +52,6 @@ const removePonto = (req, res) => {
 module.exports = {
   allPonto,
   createPonto,
-  updateRegistration,
+  updatePonto,
   removePonto
 };
