@@ -2,9 +2,10 @@
   "name": "reprograma-projeto-final",
   "version": "1.0.0",
   "description": "Projeto final do bootcamp da reprograma em Desenvolvimento web em Back-End.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "devDependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongoose": "^5.11.5"
   }
 }
