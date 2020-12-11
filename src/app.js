@@ -2,8 +2,9 @@ require("dotenv-safe").config();
 const express = require("express")
 const mongoose = require ("mongoose")
 const app = express()
+app.use(express.json())
 
-mongoose.connect(`${process.env.MONGODB_URL}`, {
+mongoose.connect(`${process.env.MONGO_URL}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -18,7 +19,7 @@ db.once('open', function() {
 const index = require("./routes/index")
 const pontos = require("./routes/pontos")
 
-app.use(bodyParser.json());
+
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*")
