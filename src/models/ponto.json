@@ -2,13 +2,13 @@
 
 {"id":2,"tipoDeResiduo":"Metal","bairro":"Santo Amaro","endereço":"Av. da Saudade", "telefone": 322210125},
 
-{"id":4,"tipoDeResiduo":"Isopor","bairro":"Santo Antonio","endereço":"Av. Dantas Barreto", "telefone": 32227850},
+{"id":4,"tipoDeResiduo":"Isopor","bairro":"Santo Antonio","endereço":"Av. Dantas Barreto", "telefone": 32221010},
 
-{"id":5,"tipoDeResiduo":"Papel","bairro":"Santo Antonio","endereço":"Rua da Aurora", "telefone": 32226014},
+{"id":5,"tipoDeResiduo":"Papel","bairro":"Santo Antonio","endereço":"Rua da Aurora", "telefone": 32221010},
 
-{"id":6,"tipoDeResiduo":"Papel","bairro":"Paissandu","endereço":"Av. Lins Petit", "telefone": 32227777},
+{"id":6,"tipoDeResiduo":"Papel","bairro":"Paissandu","endereço":"Av. Lins Petit", "telefone": 32221010},
 
-{"id":7,"tipoDeResiduo":"Plastico","bairro":"Ilha do leite","endereço":"Praça Miguel Cervantes", "telefone": 32229999},
+{"id":7,"tipoDeResiduo":"Plastico","bairro":"Ilha do leite","endereço":"Praça Miguel Cervantes", "telefone": 32221010},
 
 {"id":8,"tipoDeResiduo":"Plastico","bairro":"Jaqueira","endereço":"Rua Rui Barbosa", "telefone": 322296777},
 
