@@ -2,36 +2,34 @@ const ponto = require("../models/pontos.js")
 
 //funcionando
 const getAllPontos = (req, res) => {
-
-    console.log(req.url);
-    ponto.find(function (err, resultado) {
-        if (err) {
-            res.status(500).send({ message: err.message })
-        }
-        res.status(200).send(resultado);
-    })
+console.log(req.url);
+ ponto.find(function (err, resultado) {
+    if (err) {
+    res.status(500).send({ message: err.message })
+}
+    res.status(200).send(resultado);
+})
 };
 
 
 //funcionando
 const getByResiduo = (req, res) => {
-    const tipoDeResiduo = req.query.tipoDeResiduo;
-    console.log(tipoDeResiduo)
-    ponto.find({ tipoDeResiduo: tipoDeResiduo }, function (err, resposta) {
-        if (err) {
-            res.status(500).send({
-                message: err.message,
-                message: "Erro"
-            });
-        }
-        if (resposta.length > 0) {
-
-            res.status(200).send(resposta)
-        }
-        else {
-            res.status(500).send({ message: "Tipo de Residuo não existe" })
-        }
-    });
+const tipoDeResiduo = req.query.tipoDeResiduo;
+console.log(tipoDeResiduo)
+ ponto.find({ tipoDeResiduo: tipoDeResiduo }, function (err, resposta) {
+     if (err) {
+    res.status(500).send({
+     message: err.message,
+     message: "Erro"
+});
+}
+    if (resposta.length > 0) {
+    res.status(200).send(resposta)
+}
+    else {
+    res.status(500).send({ message: "Tipo de Residuo não existe" })
+}
+});
 };
 
 
@@ -46,43 +44,43 @@ const createPonto = (req, res) => {
 
 };
 
-//Não está funcionando
+// funcionando
 const updatePonto = (req, res) => {
-    const id = req.params.id;
+const id = req.params.id;
 
-    ponto.find({ id }, function (err, resultado) {
-        if (resultado.length > 0) {
+ponto.find({ id }, function (err, resultado) {
+    if (resultado.length > 0) {
 
-            ponto.updateMany({ id }, { $set: req.body }, function (err) {
-                if (err) {
-                    res.status(500).send({ message: err.message })
-                }
-                res.status(200).send({ message: "Ponto alterado com sucesso" })
-            })
-        } else {
-            res.status(500).send({ message: "Não há registros para serem atualizados com esse id" })
-        }
-    })
+ ponto.updateMany({ id }, { $set: req.body }, function (err) {
+    if (err) {
+     res.status(500).send({ message: err.message })
+ }
+     res.status(200).send({ message: "Ponto alterado com sucesso" })
+ })
+ } else {
+     res.status(500).send({ message: "Não há registros para serem atualizados com esse id" })
+ }
+})
 
 }
 
 // funcionando
 const deletePonto = (req, res) => {
-    const id = req.params.id;
-    ponto.find({id:id} , function (err, resposta) {
-        console.log (resposta)
-        if (resposta) {
-            ponto.deleteOne({ id }, function (err) {
-                if (err) {
-                    res.status(500).send({ message: err.message })
-                }
-                res.status(200).send({ message: "Ponto excluido com sucesso!" })
-            })
+const id = req.params.id;
+ponto.find({ id: id }, function (err, resposta) {
+ console.log(resposta)
+    if (resposta) {
+ponto.deleteOne({ id }, function (err) {
+    if (err) {
+    res.status(500).send({ message: err.message })
+ }
+    res.status(200).send({ message: "Ponto excluido com sucesso!" })
+ })
 }
     else {
-        res.status(200).send({ message: "Não há ponto para ser excluido" })
-        };
-    });
+    res.status(200).send({ message: "Não há ponto para ser excluido" })
+};
+});
 };
 
 
