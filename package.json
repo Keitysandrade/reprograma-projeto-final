@@ -23,7 +23,12 @@
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "dotenv-safe": "^8.2.0",
     "fs": "0.0.1-security",
     "mongoose": "^5.11.5"
-  }
+  },
+
+  "engines": {"node": "v12.18.3"}
+
 }
+
