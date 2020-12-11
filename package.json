@@ -5,8 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Keitysandrade/reprograma-projeto-final.git"
@@ -19,10 +21,11 @@
   },
   "homepage": "https://github.com/Keitysandrade/reprograma-projeto-final#readme",
   "devDependencies": {
-    "express": "^4.17.1",
+    
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "dotenv-safe": "^8.2.0",
     "fs": "0.0.1-security",
     "mongoose": "^5.11.5"
