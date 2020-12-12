@@ -31,6 +31,12 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 
 ## Sobre os EcoPontos em Recife
 
+![eco] (https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/unnamed%20(1).jpg)
+
+A Prefeitura do Recife, a fim de melhorar a coleta dos resíduos na cidade e sua destinação adequada, lançou o projeto EcoRecife.
+O projeto EcoRecife engloba todas as políticas públicas e equipamentos de limpeza urbana que atuam na cidade, assim como as ações de educação ambiental desenvolvidas pela Prefeitura, buscando aperfeiçoar a coleta domiciliar, incentivar o descarte correto do lixo reciclado e lançar o projeto das Ecoestações, que vem como um equipamento auxiliar de recebimento dos resíduos. 
+
+
 
 ## Tecnologias utilizadas
 
@@ -83,6 +89,18 @@ $ npm start
 - [ ] Alterar dados cadastrais por ID.
 - [ ] Remover um ponto de coleta.
 
+
+## Schemas
+
+| Pontos        |
+| ----------    | 
+| id            | 
+| tipoDeResiduo | 
+| bairro        | 
+| endereço      |
+| telefone      | 
+
+
 ## Rotas
 
 |  VERBO       |  DESCRIÇÃO                     |     ROTAS                                                       |
@@ -96,11 +114,27 @@ $ npm start
 ## Para melhorias futuras da API
 
 ## Referências
+* Para criação da marca https://www.canva.com/
+* Sobre ecoponto Recife http://ecorecife.recife.pe.gov.br/o-que-e
+* Mapa utilizado para desenvolvimento do Shema http://www.ecorecife.recife.pe.gov.br/ecolocais?field_equipamento_de_coleta_tid=14
+* Lista de Emojis https://gist.github.com/rxaviers/7360908 
 
 ## Agradecimentos
 
+Não tem como não agradecer a cada uma das minhas companheiras de "sala de aula".
+Cada domingo, cada desespero, cada alívio.
+À Raíssa, sempre  tão presente e carinhosa. 
+Às professoras e monitoras. 
+Levarei essas 18 semanas comigo pra sempre, e vocês no meu coração. 
+À reprograma pela oportunidade de sair da zona de conforto. É doloroso, mas necessário. O trabalho de vocês é incrível. 
+Ao meu companheiro de vida, João. Que acalentou o meu choro, e me trouxe pro chão quando quis desistir.
+À Theo, que me dá forças na vida. 
+
+
 ## Autora
 
+
+Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
 
 
 
