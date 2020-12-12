@@ -1,6 +1,6 @@
 const ponto = require("../models/pontos.js")
 
-//funcionando // para listar todos
+
 const getAllPontos = (req, res) => {
 console.log(req.url);
  ponto.find(function (err, resultado) {
@@ -12,7 +12,6 @@ console.log(req.url);
 };
 
 
-//funcionando /para filtrar or tipo de resíduo
 const getByResiduo = (req, res) => {
 const tipoDeResiduo = req.query.tipoDeResiduo;
 console.log(tipoDeResiduo)
@@ -33,7 +32,6 @@ console.log(tipoDeResiduo)
 };
 
 
-//funcionando // para criar
 const createPonto = (req, res) => {
     console.log(req.body)
     let pontoaCriar = new ponto(req.body)
@@ -44,7 +42,7 @@ const createPonto = (req, res) => {
 
 };
 
-// funcionando // para editar  informações
+
 const updatePonto = (req, res) => {
 const id = req.params.id;
 
@@ -64,7 +62,7 @@ ponto.find({ id }, function (err, resultado) {
 
 }
 
-// funcionando // para deletar um id
+
 const deletePonto = (req, res) => {
 const id = req.params.id;
 ponto.find({ id: id }, function (err, resposta) {
