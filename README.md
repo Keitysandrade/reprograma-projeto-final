@@ -114,7 +114,7 @@ $ npm start
 ## Para melhorias futuras da API
 
 ## Referências
-* Para criação da marca https://www.canva.com/
+* Para criação do banner https://www.canva.com/
 * Sobre ecoponto Recife http://ecorecife.recife.pe.gov.br/o-que-e
 * Mapa utilizado para desenvolvimento do Shema http://www.ecorecife.recife.pe.gov.br/ecolocais?field_equipamento_de_coleta_tid=14
 * Lista de Emojis https://gist.github.com/rxaviers/7360908 
@@ -134,8 +134,12 @@ Ao meu companheiro de vida, João. Que acalentou o meu choro, e me trouxe pro ch
 ## Autora
 
 
-Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
+                             Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
+
+
 ![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/reprograma.jpg)
+utor
+
 
 
 
