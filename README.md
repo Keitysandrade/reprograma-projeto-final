@@ -111,7 +111,6 @@ $ npm start
 | PUT          | Editar as informações pelo id  | /pontos/:id                                                     |
 | DELETE       | Remover um ponto de coleta     | /pontos/:id                          |
 
-## Para melhorias futuras da API
 
 ## Referências
 * Para criação do banner https://www.canva.com/
@@ -138,7 +137,7 @@ Ao meu companheiro de vida, João. Que acalentou o meu choro, e me trouxe pro ch
 
 
 ![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/reprograma.jpg)
-utor
+
 
 
 
