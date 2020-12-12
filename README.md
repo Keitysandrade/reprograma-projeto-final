@@ -29,6 +29,9 @@ Essa é uma API que tem por objetivo aproximar a pessoa geradora de resíduos ao
 
 Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem toda a diferença; uma das mais importantes é a reciclagem do lixo.
 
+## Sobre os EcoPontos em Recife
+
+
 ## Tecnologias utilizadas
 
 🔧 Git/Github
@@ -90,6 +93,13 @@ $ npm start
 | PUT          | Editar as informações pelo id  | /pontos/:id                                                     |
 | DELETE       | Remover um ponto de coleta     | /pontos/:id                          |
 
+## Para melhorias futuras da API
+
+## Referências
+
+## Agradecimentos
+
+## Autora
 
 
 
