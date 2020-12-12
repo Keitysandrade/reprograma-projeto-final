@@ -2,7 +2,7 @@
 
 Projeto final do bootcamp da reprograma em Desenvolvimento web em Back-End.
 
-Em construção ⚠️
+🚧 Em construção 🚧
 
 
 # Bora Reciclar
@@ -37,20 +37,41 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 
 🔧 MongoDB
 
+## Pacotes utilizados
+
+🔧 Express
 🔧 Nodemon
+🔧 Dotenv-safe
+🔧 Mongoose
+
+## Para uso da API
+=================
+<!--ts-->
+
+* Postman: para teste das funcionalidades (rotas) da API;
+
+* Heroku.com: deploy da aplicação na web;
+
+* MongoDB Atlas: hospedagem do banco de dados na nuvem.
 
 
+## Features
+- [ ] Listar os pontos de coleta.
+- [ ] Pesquisar por tipo de resíduo.
+- [ ] Adicionar/Cadastrar novo ponto de coleta.
+- [ ] Alterar dados cadastrais por ID.
+- [ ] Remover um ponto de coleta.
 
 ## Rotas HTTP
 A API está sendo escutada na porta 8080 e para que todas as rotas possam ser acessadas é necessário usar http://localhost:8080/ antes dos endpoints de requisição.
 
-CREAT (método post) /ponto-de-coleta - adicionar ponto de coleta;
+CREAT (método post) /ponto  -adicionar ponto de coleta;
 
 READ (método get) /ponto-de-coleta - lista de todos os ponto de coleta;
 
 READ (método get) /ponto-de-coleta/?bairro=<nome-do-bairro> - Pontos de coleta por bairro;
 
-READ (método get) /ponto-de-coleta/?residuo=<nome-do-residuo> - Ponto de coleta por resíduo;
+READ (método get) /ponto-de-coleta/?tiporesiduo=<nome-do-residuo> - Ponto de coleta por resíduo;
 
 UPDATE (método put) /ponto-de-coleta/:_id - atualização de cadastro de ponto de coleta por id
 
