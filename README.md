@@ -31,7 +31,7 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 
 ## Sobre os EcoPontos em Recife
 
-![eco] (https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/unnamed%20(1).jpg)
+![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/unnamed%20(1).jpg)
 
 A Prefeitura do Recife, a fim de melhorar a coleta dos resíduos na cidade e sua destinação adequada, lançou o projeto EcoRecife.
 O projeto EcoRecife engloba todas as políticas públicas e equipamentos de limpeza urbana que atuam na cidade, assim como as ações de educação ambiental desenvolvidas pela Prefeitura, buscando aperfeiçoar a coleta domiciliar, incentivar o descarte correto do lixo reciclado e lançar o projeto das Ecoestações, que vem como um equipamento auxiliar de recebimento dos resíduos. 
@@ -136,6 +136,7 @@ Ao meu companheiro de vida, João. Que acalentou o meu choro, e me trouxe pro ch
 
 Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
 
+![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/reprograma-fundos-claros.png)
 
 
 
