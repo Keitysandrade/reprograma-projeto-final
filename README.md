@@ -5,12 +5,13 @@ Projeto final do bootcamp da reprograma em Desenvolvimento web em Back-End.
 Em construção ⚠️
 
 
-## Bora Reciclar
+# Bora Reciclar
 
 ![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/eco.jpg)
 
 ## Pontos de coleta seletiva em Recife 
-♻️ Bora reciclar é um projeto do bootcamp de Back-end da {reprograma}, em parceria com o projeto MINAs do Porto Digital. Essa é uma API que tem por objetivo aproximar a pessoa geradora de resíduos aos profissionais da reciclagem, num banco de dados com informações de pontos de coleta na cidade de Recife.
+♻️ Bora reciclar é um projeto do bootcamp de Back-end da {reprograma}, em parceria com o projeto MINAs do Porto Digital. 
+Essa é uma API que tem por objetivo aproximar a pessoa geradora de resíduos aos Pontos de coleta da cidade do Recife, num banco de dados com informações de localização e tipo de resíduo coletado neles.
 
 ## Contextualização
 
