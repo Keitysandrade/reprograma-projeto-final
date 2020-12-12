@@ -40,12 +40,30 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 ## Pacotes utilizados
 
 🔧 Express
+
 🔧 Nodemon
+
 🔧 Dotenv-safe
+
 🔧 Mongoose
 
+## Instruções de instalação
+
+* Clonar o repositório
+$ git clone https://github.com/Keitysandrade/reprograma-projeto-final.git
+
+* Entrar na pasta do repositório
+$ cd reprograma-projeto-final
+
+*  Instalar as dependências
+$ npm install
+
+*  Executar o servidor
+$ npm start
+
+
 ## Para uso da API
-=================
+
 <!--ts-->
 
 * Postman: para teste das funcionalidades (rotas) da API;
@@ -62,17 +80,18 @@ Preservação do Meio Ambiente começa com pequenas atitudes diárias, que fazem
 - [ ] Alterar dados cadastrais por ID.
 - [ ] Remover um ponto de coleta.
 
-## Rotas HTTP
-A API está sendo escutada na porta 8080 e para que todas as rotas possam ser acessadas é necessário usar http://localhost:8080/ antes dos endpoints de requisição.
+## Rotas
 
-CREAT (método post) /ponto  -adicionar ponto de coleta;
+|  VERBO       |  DESCRIÇÃO                     |     ROTAS                                                       |
+| ----------   |  --------------------          |   ----------                                                    |
+| GET          | Listar todos os pontos         | /pontos                                                         |
+| GETByResiduo | Listar um determinado resíduo  | /pontos/residuo?tipoDeResiduo=<inserir tipo de resíduo>         |
+| POST         | Adicionar novo ponto           | /pontos                                                         |
+| PUT          | Editar as informações pelo id  | /pontos/:id                                                     |
+| DELETE       | Remover um ponto de coleta     | /pontos/:id                          |
 
-READ (método get) /ponto-de-coleta - lista de todos os ponto de coleta;
 
-READ (método get) /ponto-de-coleta/?bairro=<nome-do-bairro> - Pontos de coleta por bairro;
 
-READ (método get) /ponto-de-coleta/?tiporesiduo=<nome-do-residuo> - Ponto de coleta por resíduo;
 
-UPDATE (método put) /ponto-de-coleta/:_id - atualização de cadastro de ponto de coleta por id
 
-DELETE (método delete) /ponto-de-coleta/:_id - Remoção de ponto de coleta por id
+
