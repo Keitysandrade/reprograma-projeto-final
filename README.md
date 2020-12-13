@@ -133,8 +133,7 @@ Ao meu companheiro de vida, João. Que acalentou o meu choro, e me trouxe pro ch
 ## Autora
 
 
-                             Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
-
+Desenvolvido com 💜 por Keity Andrade com o apoio da {Reprograma}
 
 ![eco](https://github.com/Keitysandrade/reprograma-projeto-final/blob/main/reprograma.jpg)
 
